@@ -33,5 +33,6 @@ namespace GeneralShop.Model.Models
         public int? ViewCount { get; set; }
         [ForeignKey("CategoryID")]
         public virtual ProductCategory ProductCategory { get; set; }
+        public virtual IEnumerable<ProductTag> ProductTags { set; get; }
     }
 }
