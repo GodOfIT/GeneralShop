@@ -16,7 +16,7 @@ namespace GeneralShop.Web
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
+                routeTemplate: "apis/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
         }

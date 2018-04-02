@@ -28,7 +28,7 @@ namespace GeneralShop.Data.Respositories
                         orderby p.CreatedDate descending
                         select p;
 
-            totalRow = query.Count();
+            totalRow = query.Count(); 
 
             query = query.Skip((pageIndex - 1) * pageSize).Take(pageSize);
 

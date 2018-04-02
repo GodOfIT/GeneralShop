@@ -32,6 +32,7 @@ namespace GeneralShop.Data
         public DbSet<SystemConfig> SystemConfigs { set; get; }
         public DbSet<Tag> Tags { set; get; }
         public DbSet<VisitorStatistic> VisitorStatistics { set; get; }
+        public DbSet<Error> Errors { set; get; }
         public static ShopDbContext Create()
         {
             return new ShopDbContext();
