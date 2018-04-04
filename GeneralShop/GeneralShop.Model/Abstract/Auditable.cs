@@ -16,7 +16,7 @@ namespace GeneralShop.Model.Abstract
         [MaxLength(256)]
         public string MetaKeyword { set; get; }
         [MaxLength(256)]
-        public string Description { set; get; }
+        public string MetaDescription { set; get; }
         public bool Status { set; get; }
     }
 }

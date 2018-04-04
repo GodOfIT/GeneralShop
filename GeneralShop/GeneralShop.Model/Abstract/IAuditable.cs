@@ -9,7 +9,7 @@ namespace GeneralShop.Model.Abstract
         DateTime? UpdatedDate { set; get; }
         string UpdatedBy { set; get; }
         string MetaKeyword { set; get; }
-        string Description { set; get; }
+        string MetaDescription { set; get; }
         bool Status { set; get; }
     }
 }
